@@ -41,7 +41,7 @@ public class StudentController {
 
 	}
 
-	// delete the student
+	// delete the student this is testing for github ss
 	@DeleteMapping("/delete/{id}")
 	public void deleteStudent(@PathVariable Long id) {
 		System.out.println("delete is calling");
